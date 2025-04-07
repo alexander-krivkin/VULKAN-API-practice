@@ -11,6 +11,11 @@ namespace ak
 		cleanup();
 	}
 
+	void Application::initWin32Platform()
+	{
+
+	}
+
 	void Application::initVulkanSystem()
 	{
 		upVulkanSystem = std::unique_ptr<VulkanSystem>(new VulkanSystem);
