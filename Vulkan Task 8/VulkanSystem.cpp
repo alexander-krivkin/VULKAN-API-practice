@@ -197,7 +197,7 @@ namespace ak
 		auto sDebugUtilsMessengerCreateInfo = vk::DebugUtilsMessengerCreateInfoEXT{}
 			.setMessageSeverity(
 				vk::DebugUtilsMessageSeverityFlagBitsEXT::eVerbose |
-				vk::DebugUtilsMessageSeverityFlagBitsEXT::eInfo |
+				//vk::DebugUtilsMessageSeverityFlagBitsEXT::eInfo |
 				vk::DebugUtilsMessageSeverityFlagBitsEXT::eWarning |
 				vk::DebugUtilsMessageSeverityFlagBitsEXT::eError)
 			.setMessageType(

@@ -3,7 +3,7 @@
 
 namespace ak
 {
-	constexpr int targetFPS{ 1'000'000 };
+	constexpr int targetFPS{ 120 };
 	constexpr long long drawFrameMicrosecondsDuration{ 1'000'000 / targetFPS };
 
 	int Application::run()
